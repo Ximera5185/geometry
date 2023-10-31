@@ -13,6 +13,7 @@ public class RotateCube : MonoBehaviour
     private float minValueTime = 1f;
     private float maxValueTime = 5f;
 
+    
     private void Update()
     {
         if (_gameManager.time > minValueTime && _gameManager.time < maxValueTime)
