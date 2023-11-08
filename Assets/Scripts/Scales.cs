@@ -6,10 +6,6 @@ public class Scales : MonoBehaviour
 
     private void Update()
     {
-        float vectorX = _speed * Time.deltaTime;
-        float VectorY = _speed * Time.deltaTime;
-        float VectorZ = _speed * Time.deltaTime;
-
-        transform.localScale += new Vector3(vectorX, VectorY, VectorZ);
+        transform.localScale += Vector3.one * _speed * Time.deltaTime;
     }
 }
